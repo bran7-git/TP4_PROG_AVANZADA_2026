@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# programacion_avanzada2026
-=======
 # Microservicio de Pagos (NestJS + Stripe)
 
 Microservicio de pagos que genera sesiones de pago con Stripe Checkout y procesa eventos de cobro exitoso mediante Webhooks.
@@ -33,4 +30,3 @@ POST /payments/webhook -> Recepción y validación de la firma criptográfica de
 Simulación de Webhooks
 Bash
 .\stripe.exe listen --forward-to localhost:3003/payments/webhook
->>>>>>> ecf4463 (TP4 completado: Servicio de pagos con Stripe)
